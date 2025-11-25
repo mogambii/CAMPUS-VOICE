@@ -1,0 +1,10 @@
+<?php
+// Social Media API Configuration
+define('TWITTER_BEARER_TOKEN', 'AAAAAAAAAAAAAAAAAAAAL4m5gEAAAAAS66UV37fTZYtJgo3iluH2cWDGGE%3Dnin2k2vxM1qOP4CZkN7N2BIrljmFC4vqUzlrI6WXXcBcM0NNS5');
+define('INSTAGRAM_ACCESS_TOKEN', 'YOUR_INSTAGRAM_ACCESS_TOKEN');
+define('INSTAGRAM_BUSINESS_ACCOUNT_ID', 'YOUR_INSTAGRAM_BUSINESS_ACCOUNT_ID');
+
+// Cache settings
+define('CACHE_ENABLED', false);
+define('CACHE_DIR', __DIR__ . '/../cache/');
+define('CACHE_TIME', 300); // 5 minutes

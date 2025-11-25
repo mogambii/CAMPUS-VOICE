@@ -1,0 +1,23 @@
+{
+  "name": "campus-voice",
+  "version": "1.0.0",
+  "description": "A comprehensive web-based feedback system designed to facilitate effective communication between students and university administration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anita-lc/CAMPUS-VOICE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anita-lc/CAMPUS-VOICE/issues"
+  },
+  "homepage": "https://github.com/Anita-lc/CAMPUS-VOICE#readme",
+  "dependencies": {
+    "string-similarity": "^4.0.4"
+  }
+}

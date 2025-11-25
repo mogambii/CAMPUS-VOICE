@@ -1,0 +1,32 @@
+-- SQL Commands to Update Admin Email
+-- Run these commands in your MySQL database (phpMyAdmin or MySQL command line)
+
+-- 1. First, check current admin email
+SELECT username, email FROM admins WHERE username = 'admin';
+
+-- 2. Update admin email to admin@campusvoice.edu
+UPDATE admins SET email = 'admin@campusvoice.edu' WHERE username = 'admin';
+
+-- 3. Verify the update
+SELECT username, email FROM admins WHERE username = 'admin';
+
+-- If admins table doesn't exist, create it first:
+-- CREATE TABLE IF NOT EXISTS `admins` (
+--     `id` int(11) NOT NULL AUTO_INCREMENT,
+--     `username` varchar(50) NOT NULL,
+--     `password` varchar(255) NOT NULL,
+--     `email` varchar(100) NOT NULL,
+--     `first_name` varchar(50) NOT NULL,
+--     `last_name` varchar(50) NOT NULL,
+--     `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+--     `last_login` datetime DEFAULT NULL,
+--     `is_active` tinyint(1) DEFAULT 1,
+--     PRIMARY KEY (`id`),
+--     UNIQUE KEY `username` (`username`),
+--     UNIQUE KEY `email` (`email`)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- If no admin user exists, insert one:
+-- INSERT INTO admins (username, password, email, first_name, last_name) 
+-- VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin@campusvoice.edu', 'System', 'Administrator');
+-- (Password hash above is for 'password')

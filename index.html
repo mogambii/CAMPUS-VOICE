@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Voice - Student Feedback System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-bullhorn"></i>
+                <span>Campus Voice</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+                    <li class="nav-item"><a class="btn btn-primary ms-2" href="./register.php">Get Started <i class="fas fa-arrow-right ms-1"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">Your Voice Matters on Campus</h1>
+                    <p class="lead mb-4">A centralized platform for students to voice concerns, provide feedback, and engage with campus administration effectively.</p>
+                    <div class="d-flex gap-3">
+                        <a href="./register.php" class="btn btn-primary btn-lg">Get Started <i class="fas fa-arrow-right ms-2"></i></a>
+                        <a href="#features" class="btn btn-outline-primary btn-lg">Learn More</a>
+                    </div>
+                    <div class="mt-5">
+                        <a href="#features" class="btn btn-outline-secondary btn-lg">
+                            <i class="fas fa-play-circle me-2"></i>Watch Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <i class="fas fa-comments hero-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features-section py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-5">Key Features</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-comment-alt"></i>
+                        </div>
+                        <h4>Submit Feedback</h4>
+                        <p>Easily submit feedback, complaints, or suggestions through our intuitive form.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h4>Track Status</h4>
+                        <p>Monitor the progress of your submissions in real-time from submission to resolution.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h4>Anonymous Posting</h4>
+                        <p>Share your concerns anonymously while maintaining privacy and security.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h4>AI-Powered Detection</h4>
+                        <p>Smart duplicate detection prevents redundant submissions and suggests similar posts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <h4>Social Media Integration</h4>
+                        <p>Automatically tracks campus-related posts from social media platforms.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card p-4 h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-poll"></i>
+                        </div>
+                        <h4>Polls & Surveys</h4>
+                        <p>Participate in campus surveys and vote on important decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">How It Works</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number">1</div>
+                        <h4>Create Account</h4>
+                        <p>Sign up with your campus credentials to get started.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number">2</div>
+                        <h4>Submit Feedback</h4>
+                        <p>Fill out our simple form to share your feedback or concern.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number">3</div>
+                        <h4>AI Verification</h4>
+                        <p>Our AI checks for duplicates and suggests similar posts.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="step-card text-center p-4">
+                        <div class="step-number">4</div>
+                        <h4>Track & Engage</h4>
+                        <p>Monitor status and engage with administrators for resolution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="mb-4">About Campus Voice</h2>
+                    <p class="lead">Campus Voice is a web-based feedback system designed to bridge the communication gap between students and university administration.</p>
+                    <p>Our platform aligns with SDG 16 (Peace, Justice, and Strong Institutions) and SDG 4 (Quality Education) by promoting transparency, accountability, and efficient problem resolution in higher education institutions.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle text-success me-2"></i>Centralized feedback management</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i>Real-time status tracking</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i>Anonymous submission options</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i>AI-powered duplicate detection</li>
+                        <li><i class="fas fa-check-circle text-success me-2"></i>Social media integration</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <i class="fas fa-university about-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5 text-white" style="background-color: var(--primary-color);">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Make Your Voice Heard?</h2>
+            <p class="lead mb-4">Join hundreds of students who are already improving campus life with their feedback.</p>
+            <a href="register.php" class="btn btn-light btn-lg">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><i class="fas fa-comment-dots me-2"></i>Campus Voice</h5>
+                    <p>A platform designed to bridge the communication gap between students and university administration through an efficient feedback system.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white-50">Home</a></li>
+                        <li><a href="#features" class="text-white-50">Features</a></li>
+                        <li><a href="#about" class="text-white-50">About</a></li>
+                        <li><a href="login.php" class="text-white-50">Login</a></li>
+                        <li><a href="register.php" class="text-white-50">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fas fa-envelope me-2"></i> anitaa.chepngeno.l@gmail.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +254 115835269</p>
+                    <!-- <div class="social-links mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                    </div> -->
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Campus Voice. All rights reserved. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Debug: Log all clicks on Get Started buttons
+        document.addEventListener('DOMContentLoaded', function() {
+            const getStartedBtns = document.querySelectorAll('a[href*="register.php"]');
+            getStartedBtns.forEach(btn => {
+                btn.addEventListener('click', function(e) {
+                    console.log('Get Started clicked, href:', this.getAttribute('href'));
+                    // Uncomment the next line to prevent any default behavior for testing
+                    // e.preventDefault();
+                });
+            });
+            
+            // Log any JavaScript errors
+            window.onerror = function(message, source, lineno, colno, error) {
+                console.error('JavaScript Error:', message, 'at', source, 'line', lineno);
+                return false;
+            };
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

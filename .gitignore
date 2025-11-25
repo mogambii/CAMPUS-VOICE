@@ -1,0 +1,82 @@
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# XAMPP files
+/xampp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# Composer
+composer.lock
+composer.phar
+
+# Cache
+/cache/
+*.cache
+
+# Session files
+/sessions/
+*.sess
+
+# Uploads (you might want to handle these differently)
+/uploads/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Local development files
+config/local.php
+config/development.php
+
+# Logs (if not already covered)
+/logs/
+*.log
+
+# XAMPP specific
+/xampp/
+/xamppfiles/
+
+# Ignore the entire htdocs directory if present
+/htdocs/
+
+# Ignore any .htaccess files if present
+.htaccess
+
+# Ignore any .htpasswd files if present
+.htpasswd
