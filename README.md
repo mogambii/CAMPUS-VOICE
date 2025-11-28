@@ -62,10 +62,6 @@ A comprehensive web-based feedback system designed to facilitate effective commu
 6. **Access the Application**
    - Open browser and navigate to: `http://localhost/C.VOICE`
 
-## Default Admin Credentials
-
-- **Email**: admin@campusvoice.edu
-- **Password**: admin123
 
 **Important**: Change the default admin password after first login!
 
