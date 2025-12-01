@@ -17,9 +17,7 @@ define('CAMPUS_VOICE_CONFIG_LOADED', true);
 // Database Configuration
 define('DB_HOST', 'mysql');
 define('DB_USER', 'root');
-define('DB_PASS', 'lUlceU2YvoQTQ6dfmPAFPJqSJKETMSRV3ZsqBySgoAzTL4k4sRNWbRiu6hZhsjoZ');
-define('DB_NAME', 'default');
-define('DB_PORT', '5432');
+define('DB_PASS', 'ioJ82TflaJPCdDXxK5Y8XPDhzXQHTf4QLUdhLDzkmWCET5O8LpcpzV1bs3Q2zDjy');
 
 // OpenAI API Configuration
 define('OPENAI_API_KEY', 'your-api-key-here'); // Replace with your actual OpenAI API key
