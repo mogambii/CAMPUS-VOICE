@@ -19,7 +19,7 @@ define('DB_HOST', 'mysql-database-docswcw4cs0gcckk40c04cww');
 define('DB_USER', 'root');
 define('DB_PASS', 'lUlceU2YvoQTQ6dfmPAFPJqSJKETMSRV3ZsqBySgoAzTL4k4sRNWbRiu6hZhsjoZ');
 define('DB_NAME', 'default');
-define('DB_PORT', '3306');
+define('DB_PORT', '5432');
 
 // OpenAI API Configuration
 define('OPENAI_API_KEY', 'your-api-key-here'); // Replace with your actual OpenAI API key
