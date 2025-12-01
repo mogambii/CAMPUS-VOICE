@@ -18,6 +18,8 @@ define('CAMPUS_VOICE_CONFIG_LOADED', true);
 define('DB_HOST', 'mysql');
 define('DB_USER', 'root');
 define('DB_PASS', 'ioJ82TflaJPCdDXxK5Y8XPDhzXQHTf4QLUdhLDzkmWCET5O8LpcpzV1bs3Q2zDjy');
+define('DB_PORT', 5432);
+
 
 // OpenAI API Configuration
 define('OPENAI_API_KEY', 'your-api-key-here'); // Replace with your actual OpenAI API key
